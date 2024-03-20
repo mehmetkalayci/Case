@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
+
+IronPdf.License.LicenseKey = "IRONSUITE.MMTKALAYCI.GMAIL.COM.8495-E9FE44C102-BYVE52IDK5YWJ435-ZDRXM6IAD3RK-XSGMMPYY6YYQ-T5L5I3VO2NSA-T67MZSW5YXDK-RGIMV6YD4BE7-GNRLGA-T76X4EON7ROMEA-DEPLOYMENT.TRIAL-BRRD7W.TRIAL.EXPIRES.19.APR.2024";
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
