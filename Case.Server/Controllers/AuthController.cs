@@ -72,7 +72,7 @@ public class AuthController : ControllerBase
         }
 
 
-        var user = await _context.Users.Where(x => x.Email == loginRequest.Email && x.Password == loginRequest.Password && x.DeletedAt == null).FirstOrDefault();
+        var user = await _context.Users.Where(x => x.Email == loginRequest.Email && x.Password == loginRequest.Password && x.DeletedAt == null).FirstOrDefaultAsync();
 
         if (user == null)
         {
