@@ -1,0 +1,4 @@
+dotnet ef migrations add InitialMigration --project .\Case.Server\Case.Server.csproj -o Data/Migrations
+
+dotnet ef database update --project .\Case.Server\Case.Server.csproj
+
